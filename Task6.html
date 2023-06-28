@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Відправити email</title>
+    <link rel="stylesheet" href="JavaScript/email.css"><link>
+</head>
+<body>
+<form method="post" action="mailto:example@example.com">
+    <label for="email">Адреса e-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Тема повідомлення:</label>
+    <input type="text" id="subject" name="subject">
+
+    <label for="message">Повідомлення:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Надіслати</button>
+</form>
+</body>
+</html>
